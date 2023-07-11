@@ -1,14 +1,13 @@
 const ingredients = [
-  'Potatoes',
-  'Mushrooms',
-  'Garlic',
-  'Tomatos',
-  'Herbs',
-  'Condiments',
+  "Potatoes",
+  "Mushrooms",
+  "Garlic",
+  "Tomatos",
+  "Herbs",
+  "Condiments",
 ];
 
 const ingredientsList = document.querySelector("#ingredients");
-
 const fragment = document.createDocumentFragment();
 
 ingredients.forEach((ingredient) => {
